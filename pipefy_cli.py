@@ -5,6 +5,7 @@ Uso: py pipefy_cli.py
 import sys
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
+from pathlib import Path
 import questionary
 from rich.console import Console
 from rich.table import Table
@@ -69,16 +70,44 @@ def escolher_campo(pipe_id: str, pipe_label: str) -> dict:
     return field
 
 
+INPUT_DIR = Path(__file__).parent / "input"
+
+
 def carregar_planilha() -> list[str]:
-    """Pede caminho do arquivo e retorna lista de card_ids."""
+    """
+    Lista arquivos em input/, permite selecionar ou digitar caminho manual.
+    Retorna lista de card_ids.
+    """
     while True:
-        path = questionary.text("Caminho do arquivo (.xlsx ou .csv):").ask()
+        # Descobre arquivos disponíveis na pasta input/
+        arquivos = sorted(
+            INPUT_DIR.glob("*.xlsx")
+        ) + sorted(INPUT_DIR.glob("*.csv"))
+
+        if arquivos:
+            choices = [
+                questionary.Choice(f.name, value=str(f)) for f in arquivos
+            ]
+            choices.append(questionary.Choice("[ Digitar caminho manualmente ]", value="__manual__"))
+            path = questionary.select(
+                "Selecione o arquivo da pasta input/:", choices=choices
+            ).ask()
+        else:
+            console.print("[yellow]  Pasta input/ vazia. Digite o caminho do arquivo:[/yellow]")
+            path = "__manual__"
+
         if path is None:
             sys.exit(0)
-        path = path.strip().strip('"')
+
+        if path == "__manual__":
+            path = questionary.text("Caminho completo do arquivo (.xlsx ou .csv):").ask()
+            if path is None:
+                sys.exit(0)
+            path = path.strip().strip('"')
+
         try:
             ids = read_file(path)
-            console.print(f"[green]  {len(ids)} card_ids carregados de '{path}'[/green]\n")
+            console.print(f"[green]  {len(ids)} card_ids carregados de '{Path(path).name}'[/green]\n")
             return ids
         except InputError as e:
             console.print(f"[red]  Erro: {e}[/red]")
