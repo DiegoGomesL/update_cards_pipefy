@@ -430,5 +430,1114 @@
       "label": "📤 Pendência de Acolhimento - Enviar para o Whats 📝 Obs.: Sempre que este campo for atualizado, será enviada uma mensagem pelo WhatsApp.",
       "type": "radio_horizontal"
     }
+  ],
+  "305859312": [
+    {
+      "id": "em_teste_comunicar_encaminhamento_para_consultas",
+      "label": "(EM TESTE) Comunicar encaminhamento para consultas",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "em_teste_comunicar_para_a_representante_o_andamento",
+      "label": "(EM TESTE)Comunicar para a representante o andamento",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "comunicar_resultado_ao_cliente",
+      "label": "(EM TESTE)Comunicar resultado da perícia médica ao cliente",
+      "type": "radio_horizontal"
+    },
+    {
+      "id": "copy_of_comunicar_resultado_da_per_cia_m_dica_ao_cliente",
+      "label": "(EM TESTE)Comunicar resultado da perícia social ao cliente",
+      "type": "radio_horizontal"
+    },
+    {
+      "id": "benef_cio_implantado",
+      "label": "BENEFÍCIO IMPLANTADO",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "contato_telef_nico",
+      "label": "CONTATO TELEFÔNICO",
+      "type": "phone"
+    },
+    {
+      "id": "cpf_do_benefici_rio",
+      "label": "CPF DO BENEFICIÁRIO",
+      "type": "cpf"
+    },
+    {
+      "id": "cpf_do_representante_legal",
+      "label": "CPF DO REPRESENTANTE LEGAL",
+      "type": "cpf"
+    },
+    {
+      "id": "cadastrado_na_planilha",
+      "label": "Cadastrado na planilha",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "data_do_ltimo_retorno",
+      "label": "DATA DO ÚLTIMO RETORNO",
+      "type": "date"
+    },
+    {
+      "id": "documenta_o_espec_fica",
+      "label": "DOCUMENTAÇÃO ESPECÍFICA",
+      "type": "long_text"
+    },
+    {
+      "id": "documenta_o_pendente",
+      "label": "DOCUMENTAÇÃO PENDENTE",
+      "type": "checklist_vertical"
+    },
+    {
+      "id": "data_do_resultado_da_per_cia",
+      "label": "Data Resultado perícia médica",
+      "type": "date"
+    },
+    {
+      "id": "data_da_per_cia_m_dica",
+      "label": "Data da Perícia Médica",
+      "type": "datetime"
+    },
+    {
+      "id": "data_da_elabora_o",
+      "label": "Data da elaboração",
+      "type": "date"
+    },
+    {
+      "id": "data_da_senten_a_1",
+      "label": "Data da sentença",
+      "type": "date"
+    },
+    {
+      "id": "data_do_protocolo",
+      "label": "Data do protocolo",
+      "type": "date"
+    },
+    {
+      "id": "data_resultado_per_cia_social",
+      "label": "Data resultado perícia social",
+      "type": "date"
+    },
+    {
+      "id": "laudos_e_relat_rios",
+      "label": "Documentos já possuídos",
+      "type": "checklist_vertical"
+    },
+    {
+      "id": "documentos_solicitados",
+      "label": "Documentos solicitados",
+      "type": "checklist_vertical"
+    },
+    {
+      "id": "endere_o_da_per_cia",
+      "label": "Endereço da Perícia",
+      "type": "short_text"
+    },
+    {
+      "id": "comunica_o_de_indeferimento",
+      "label": "Enviar Comunicação Judicial ⚖️ para o Whats 📝   Obs.: Sempre que este campo for atualizado, será enviada uma mensagem pelo WhatsApp.",
+      "type": "radio_horizontal"
+    },
+    {
+      "id": "comunica_o_de_indeferimento_judicial",
+      "label": "Enviar Comunicação Judicial ⚖️ para o Whats 📝   Obs.: Sempre que este campo for atualizado, será enviada uma mensagem pelo WhatsApp.  ",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "escrit_rio",
+      "label": "Escritório",
+      "type": "short_text"
+    },
+    {
+      "id": "fundamento_da_senten_a_1",
+      "label": "Fundamento da sentença ",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "institui_o",
+      "label": "INSTITUIÇÃO",
+      "type": "short_text"
+    },
+    {
+      "id": "contatos_realizados",
+      "label": "JUSTIFICATIVA",
+      "type": "long_text"
+    },
+    {
+      "id": "judicial_financeiro",
+      "label": "Judicial -> Financeiro",
+      "type": "connector"
+    },
+    {
+      "id": "juiz",
+      "label": "Juiz",
+      "type": "short_text"
+    },
+    {
+      "id": "laudo_m_dico",
+      "label": "Laudo Médico",
+      "type": "checklist_vertical"
+    },
+    {
+      "id": "motivo_da_substitui_o",
+      "label": "MOTIVO",
+      "type": "select"
+    },
+    {
+      "id": "motivo_do_indeferimento_1",
+      "label": "MOTIVO DO INDEFERIMENTO ADM:",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "matura_o",
+      "label": "Maturação",
+      "type": "connector"
+    },
+    {
+      "id": "nome_do_benefici_rio",
+      "label": "NOME DO BENEFICIÁRIO",
+      "type": "short_text"
+    },
+    {
+      "id": "nome_do_representante_legal",
+      "label": "NOME DO REPRESENTANTE LEGAL",
+      "type": "short_text"
+    },
+    {
+      "id": "nome_do_perito",
+      "label": "Nome do perito",
+      "type": "short_text"
+    },
+    {
+      "id": "copy_of_nome_do_psic_logo",
+      "label": "Nome do psicopedagogo",
+      "type": "short_text"
+    },
+    {
+      "id": "nome_do_psic_logo",
+      "label": "Nome do psicólogo",
+      "type": "short_text"
+    },
+    {
+      "id": "n_mero_da_pasta",
+      "label": "NÚMERO DA PASTA",
+      "type": "short_text"
+    },
+    {
+      "id": "n_mero_do_processo",
+      "label": "NÚMERO DO PROCESSO JUDICIAL",
+      "type": "short_text"
+    },
+    {
+      "id": "o_caso_ainda_possui_pend_ncias",
+      "label": "O caso ainda possui pendências?",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "o_caso_possui_documenta_o_m_dica_satisfat_ria",
+      "label": "O caso possui documentação médica satisfatória?",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "descri_o",
+      "label": "OBSERVAÇÃO",
+      "type": "long_text"
+    },
+    {
+      "id": "motivo_do_indeferimento",
+      "label": "OBSERVAÇÕES SOBRE O INDEFERIMENTO:",
+      "type": "long_text"
+    },
+    {
+      "id": "observa_o_da_equipe_de_comunica_o",
+      "label": "Observação da equipe de comunicação",
+      "type": "long_text"
+    },
+    {
+      "id": "observa_es",
+      "label": "Observações",
+      "type": "long_text"
+    },
+    {
+      "id": "resultado_da_per_cia",
+      "label": "Perícia Médica",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "conex_o_de_pipe",
+      "label": "Perícia Médica (JUD)",
+      "type": "connector"
+    },
+    {
+      "id": "per_cia_social_1",
+      "label": "Perícia Social",
+      "type": "connector"
+    },
+    {
+      "id": "per_cia_social",
+      "label": "Perícia social",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "processo_administrativo_1",
+      "label": "Processo Administrativo",
+      "type": "attachment"
+    },
+    {
+      "id": "em_grau_recursal",
+      "label": "Providência",
+      "type": "select"
+    },
+    {
+      "id": "rpv_recebido",
+      "label": "RPV recebido",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "recorrer_do_ac_rd_o",
+      "label": "Recorrer do Acórdão",
+      "type": "select"
+    },
+    {
+      "id": "relat_rio_psicol_gico",
+      "label": "Relatório Psicológico",
+      "type": "radio_horizontal"
+    },
+    {
+      "id": "copy_of_relat_rio_psicol_gico",
+      "label": "Relatório Psicopedagógico",
+      "type": "radio_horizontal"
+    },
+    {
+      "id": "respons_vel_pela_elabora_o",
+      "label": "Responsável pela elaboração",
+      "type": "select"
+    },
+    {
+      "id": "resultado_do_pedilef_incidente",
+      "label": "Resultado do PEDILEF/INCIDENTE",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "resultado_do_processo",
+      "label": "Resultado do processo",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "resultado_do_recurso",
+      "label": "Resultado do recurso inominado",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "revis_o_feita_por",
+      "label": "Revisão feita por",
+      "type": "select"
+    },
+    {
+      "id": "senha_do_meu_inss_1",
+      "label": "SENHA DO MEU INSS",
+      "type": "short_text"
+    },
+    {
+      "id": "solicita_o_de_documentos",
+      "label": "SOLICITAÇÃO DE DOCUMENTOS",
+      "type": "connector"
+    },
+    {
+      "id": "seguir_com_processo_judicial",
+      "label": "Seguir com processo judicial",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "senha_do_meu_inss",
+      "label": "Senha do Meu INSS",
+      "type": "short_text"
+    },
+    {
+      "id": "statement_286a6b6e_07ad_422d_b564_0c1033e3b364",
+      "label": "Statement-286a6b6e-07ad-422d-b564-0c1033e3b364",
+      "type": "statement"
+    },
+    {
+      "id": "statement_5d23ff05_24de_43ce_8257_ccff2b808f4e",
+      "label": "Statement-5d23ff05-24de-43ce-8257-ccff2b808f4e",
+      "type": "statement"
+    },
+    {
+      "id": "statement_67ee429c_4879_48d1_9cdd_feff41ed34f5",
+      "label": "Statement-67ee429c-4879-48d1-9cdd-feff41ed34f5",
+      "type": "statement"
+    },
+    {
+      "id": "statement_bbc36c87_cdac_4080_9596_df38e663296e",
+      "label": "Statement-bbc36c87-cdac-4080-9596-df38e663296e",
+      "type": "statement"
+    },
+    {
+      "id": "terceiro_interassado",
+      "label": "TERCEIRO INTERESSADO",
+      "type": "short_text"
+    },
+    {
+      "id": "tramita_o_datajuri",
+      "label": "Tramitação DataJuri",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "valor_do_contrato_no_judicial",
+      "label": "VALOR DO CONTRATO NO JUDICIAL",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "valor_dos_atrasados",
+      "label": "Valor dos atrasados",
+      "type": "currency"
+    },
+    {
+      "id": "o_processo_foi_distribuido_em_que_vara",
+      "label": "Vara em que foi distribuido",
+      "type": "short_text"
+    },
+    {
+      "id": "whatsapp",
+      "label": "WHATSAPP ",
+      "type": "phone"
+    },
+    {
+      "id": "indeferido_enviar_dados_do_indeferimento_para_o_whats_obs_sempre_que_este_campo_for_atualizado_ser_enviada_uma_mensagem_pelo_whatsapp",
+      "label": "📤 Indeferido - Enviar dados do indeferimento para o Whats 📝 Obs.: Sempre que este campo for atualizado, será enviada uma mensagem pelo WhatsApp.",
+      "type": "radio_horizontal"
+    },
+    {
+      "id": "protocolo_enviar_dados_do_protocolo_para_o_whats_obs_sempre_que_este_campo_for_atualizado_ser_enviada_uma_mensagem_pelo_whatsapp",
+      "label": "📤 Protocolo - Enviar dados do protocolo para o Whats 📝 Obs.: Sempre que este campo for atualizado, será enviada uma mensagem pelo WhatsApp.",
+      "type": "radio_horizontal"
+    }
+  ],
+  "305859195": [
+    {
+      "id": "contato_telef_nico",
+      "label": "CONTATO TELEFÔNICO",
+      "type": "phone"
+    },
+    {
+      "id": "cpf_do_benefici_rio",
+      "label": "CPF DO BENEFICIÁRIO",
+      "type": "cpf"
+    },
+    {
+      "id": "cpf_do_representante_legal",
+      "label": "CPF DO REPRESENTANTE LEGAL",
+      "type": "cpf"
+    },
+    {
+      "id": "1",
+      "label": "DATA COBRANÇA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_10_parcela",
+      "label": "DATA COBRANÇA 10ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_12_parcela",
+      "label": "DATA COBRANÇA 12ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_13_parcela",
+      "label": "DATA COBRANÇA 13ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_14_parcela",
+      "label": "DATA COBRANÇA 14ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_15_parcela",
+      "label": "DATA COBRANÇA 15ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_16_parcela",
+      "label": "DATA COBRANÇA 16ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_17_parcela",
+      "label": "DATA COBRANÇA 17ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_18_parcela",
+      "label": "DATA COBRANÇA 18ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a",
+      "label": "DATA COBRANÇA 1ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_1",
+      "label": "DATA COBRANÇA 2ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_3_parcela",
+      "label": "DATA COBRANÇA 3ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_4_parcela",
+      "label": "DATA COBRANÇA 4ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_5_parcela",
+      "label": "DATA COBRANÇA 5ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_6_parcela",
+      "label": "DATA COBRANÇA 6ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_7_parcela",
+      "label": "DATA COBRANÇA 7ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_8_parcela",
+      "label": "DATA COBRANÇA 8ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_9_parcela",
+      "label": "DATA COBRANÇA 9ª PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_cobran_a_da_11_parcela",
+      "label": "DATA COBRANÇA DA 11º PARCELA",
+      "type": "due_date"
+    },
+    {
+      "id": "data_da_reuni_o",
+      "label": "DATA DA REUNIÃO",
+      "type": "date"
+    },
+    {
+      "id": "data_de_recebimento_do_rpv",
+      "label": "DATA DE RECEBIMENTO DO RPV",
+      "type": "date"
+    },
+    {
+      "id": "data_de_vencimento",
+      "label": "DATA DE VENCIMENTO",
+      "type": "date"
+    },
+    {
+      "id": "data_de_vencimento_da_parcela_em_aberto",
+      "label": "DATA DE VENCIMENTO DA PARCELA EM ABERTO: ",
+      "type": "date"
+    },
+    {
+      "id": "data_e_hora",
+      "label": "DATA E HORA DA REUNIÃO",
+      "type": "datetime"
+    },
+    {
+      "id": "data_da_reuni_o_1",
+      "label": "Data da Reunião",
+      "type": "date"
+    },
+    {
+      "id": "escrit_rio",
+      "label": "Escritório",
+      "type": "short_text"
+    },
+    {
+      "id": "inadimpl_ncia",
+      "label": "INADIMPLÊNCIA\"",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "institui_o",
+      "label": "INSTITUIÇÃO",
+      "type": "short_text"
+    },
+    {
+      "id": "lote_n",
+      "label": "LOTE N.º",
+      "type": "short_text"
+    },
+    {
+      "id": "nome_do_benefici_rio",
+      "label": "NOME DO BENEFICIÁRIO",
+      "type": "short_text"
+    },
+    {
+      "id": "nome_do_respons_vel",
+      "label": "NOME DO REPRESENTANTE LEGAL",
+      "type": "short_text"
+    },
+    {
+      "id": "observa_o",
+      "label": "OBSERVAÇÃO",
+      "type": "long_text"
+    },
+    {
+      "id": "observa_o_2",
+      "label": "OBSERVAÇÃO",
+      "type": "long_text"
+    },
+    {
+      "id": "observa_o_1",
+      "label": "OBSERVAÇÃO:",
+      "type": "long_text"
+    },
+    {
+      "id": "recebido_em",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_1",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_2",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_3",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_4",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "data_do_recebimento",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_6",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_7",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_8",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_9",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_10",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_11",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_12",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_13",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_14",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_15",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_16",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_17",
+      "label": "RECEBIDO EM:",
+      "type": "date"
+    },
+    {
+      "id": "recebido_em_5",
+      "label": "RECEBIDO EM: ",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_1",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_2",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_3",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_4",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "data_do_repasse",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_5",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_6",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_7",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_8",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_9",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_10",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_11",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_12",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_13",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_14",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_15",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_16",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "repassado_em_17",
+      "label": "REPASSADO EM:",
+      "type": "date"
+    },
+    {
+      "id": "resultado_do_pedido",
+      "label": "RESULTADO DO PEDIDO",
+      "type": "radio_vertical"
+    },
+    {
+      "id": "data_e_hora_1",
+      "label": "REUNIÃO AGENDADA PARA:",
+      "type": "datetime"
+    },
+    {
+      "id": "status_da_reuni_o",
+      "label": "Status da reunião:",
+      "type": "select"
+    },
+    {
+      "id": "terceiro_interessado",
+      "label": "TERCEIRO INTERESSADO",
+      "type": "short_text"
+    },
+    {
+      "id": "valor_para_execu_o",
+      "label": "VALOR A SER EXECUTADO:",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_10_parcela",
+      "label": "VALOR DA 10ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_11_parcela",
+      "label": "VALOR DA 11ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_11_parcela_1",
+      "label": "VALOR DA 12ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_13_parcela",
+      "label": "VALOR DA 13ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_14_parcela",
+      "label": "VALOR DA 14ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_15_parcela",
+      "label": "VALOR DA 15ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_16_parcela",
+      "label": "VALOR DA 16ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_17_parcela",
+      "label": "VALOR DA 17ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_18_parcela",
+      "label": "VALOR DA 18ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_1_parcela",
+      "label": "VALOR DA 1ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_segunda_parcela",
+      "label": "VALOR DA 2ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_3_parcela",
+      "label": "VALOR DA 3ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_4_parcela",
+      "label": "VALOR DA 4ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_5_parcela",
+      "label": "VALOR DA 5ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_6_parcela",
+      "label": "VALOR DA 6ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_4_parcela_1",
+      "label": "VALOR DA 7ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_8_parcela",
+      "label": "VALOR DA 8ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_9_parcela",
+      "label": "VALOR DA 9ª PARCELA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_entrada_parcela_nica",
+      "label": "VALOR DA ENTRADA / PARCELA ÚNICA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_da_entrada",
+      "label": "VALOR DA ENTRADA / PARCELA ÚNICA / MULTA DESISTÊNCIA",
+      "type": "currency"
+    },
+    {
+      "id": "valor_das_parcelas",
+      "label": "VALOR DAS PARCELAS",
+      "type": "currency"
+    },
+    {
+      "id": "valor_do_contrato",
+      "label": "VALOR DO CONTRATO:",
+      "type": "currency"
+    },
+    {
+      "id": "retroativo",
+      "label": "VALOR DO RETROATIVO:",
+      "type": "currency"
+    },
+    {
+      "id": "valor_do_rpv",
+      "label": "VALOR DO RPV",
+      "type": "currency"
+    },
+    {
+      "id": "valor_parcial_do_retroativo",
+      "label": "VALOR PARCIAL DO RETROATIVO",
+      "type": "currency"
+    },
+    {
+      "id": "vencimento_da_10_parcela",
+      "label": "VENCIMENTO DA 10ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_10_parcela_1",
+      "label": "VENCIMENTO DA 10ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_11_parcela",
+      "label": "VENCIMENTO DA 11ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_11_parcela_1",
+      "label": "VENCIMENTO DA 11ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_12_parcela",
+      "label": "VENCIMENTO DA 12ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_12_parcela_1",
+      "label": "VENCIMENTO DA 12ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_13_parcela",
+      "label": "VENCIMENTO DA 13ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_13_parcela_1",
+      "label": "VENCIMENTO DA 13ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_14_parcela_1",
+      "label": "VENCIMENTO DA 14ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_14_parcela",
+      "label": "VENCIMENTO DA 14ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_15_parcela_1",
+      "label": "VENCIMENTO DA 15ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_15_parcela",
+      "label": "VENCIMENTO DA 15ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_16_parcela_1",
+      "label": "VENCIMENTO DA 16ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_16_parcela",
+      "label": "VENCIMENTO DA 16ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_17_parcela_1",
+      "label": "VENCIMENTO DA 17ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_17_parcela",
+      "label": "VENCIMENTO DA 17ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_18_parcela_1",
+      "label": "VENCIMENTO DA 18ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_18_parcela",
+      "label": "VENCIMENTO DA 18ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_1_parcela",
+      "label": "VENCIMENTO DA 1ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_1_parcela_1",
+      "label": "VENCIMENTO DA 1ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_2_parcela",
+      "label": "VENCIMENTO DA 2ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_2_parcela_1",
+      "label": "VENCIMENTO DA 2ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_3_parcela",
+      "label": "VENCIMENTO DA 3ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_3_parcela_1",
+      "label": "VENCIMENTO DA 3ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_4_parcela",
+      "label": "VENCIMENTO DA 4ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_4_parcela_1",
+      "label": "VENCIMENTO DA 4ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_5_parcela",
+      "label": "VENCIMENTO DA 5ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_5_parcela_1",
+      "label": "VENCIMENTO DA 5ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_6_parcela",
+      "label": "VENCIMENTO DA 6ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_6_parcela_1",
+      "label": "VENCIMENTO DA 6ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_7_parcela",
+      "label": "VENCIMENTO DA 7ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_7_parcela_1",
+      "label": "VENCIMENTO DA 7ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_8_parcela",
+      "label": "VENCIMENTO DA 8ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_8_parcela_1",
+      "label": "VENCIMENTO DA 8ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_9_parcela",
+      "label": "VENCIMENTO DA 9ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_9_parcela_1",
+      "label": "VENCIMENTO DA 9ª PARCELA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_entrada_parcela_nica_1",
+      "label": "VENCIMENTO DA ENTRADA / PARCELA ÚNICA",
+      "type": "date"
+    },
+    {
+      "id": "vencimento_da_entrada_parcela_nica",
+      "label": "VENCIMENTO DA ENTRADA / PARCELA ÚNICA / MULTA DA DESISTÊNCIA",
+      "type": "date"
+    },
+    {
+      "id": "whatsapp",
+      "label": "WHATSAPP",
+      "type": "phone"
+    }
   ]
 }

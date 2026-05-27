@@ -126,7 +126,8 @@ def mostrar_resumo(pipe_label, field, new_value, valid_ids, not_found, dry_run):
 
     table.add_row("Pipe",   f"{pipe_label} — {api.PIPES[pipe_label]['name']}")
     table.add_row("Campo",  f"[bold yellow]{field['label']}[/bold yellow]  [dim][{field['id']}][/dim]")
-    table.add_row("Valor",  f"[bold green]{new_value}[/bold green]")
+    valor_display = f"[bold green]{new_value}[/bold green]" if new_value else "[bold yellow](limpar campo — valor vazio)[/bold yellow]"
+    table.add_row("Valor",  valor_display)
     table.add_row("Cards",
         f"[green]{len(valid_ids)} validos[/green]"
         + (f"  [red]{len(not_found)} nao encontrados[/red]" if not_found else "")
@@ -162,10 +163,24 @@ def modo_pontual():
         cancelado(); return
 
     # 3. Valor
-    new_value = questionary.text(f"Valor a preencher em '{field['label']}': (Enter vazio = cancelar)").ask()
-    if not new_value or new_value.strip() == "":
+    acao = questionary.select(
+        f"O que fazer com o campo '{field['label']}'?",
+        choices=[
+            questionary.Choice("Preencher com um valor",      value="preencher"),
+            questionary.Choice("Limpar o campo (deixar vazio)", value="limpar"),
+            questionary.Choice("[ Cancelar ]",                  value=CANCELAR),
+        ]
+    ).ask()
+    if acao is None or acao == CANCELAR:
         cancelado(); return
-    new_value = new_value.strip()
+
+    if acao == "preencher":
+        new_value = questionary.text(f"Valor a preencher em '{field['label']}': (Enter vazio = cancelar)").ask()
+        if not new_value or new_value.strip() == "":
+            cancelado(); return
+        new_value = new_value.strip()
+    else:
+        new_value = ""
     console.print()
 
     # 4. Arquivo
