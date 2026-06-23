@@ -21,6 +21,11 @@
       "type": "radio_horizontal"
     },
     {
+      "id": "contato_efetivado_em",
+      "label": "CONTATO EFETIVADO EM:",
+      "type": "date"
+    },
+    {
       "id": "n_mero_de_telefone",
       "label": "CONTATO TELEFÔNICO",
       "type": "phone"
@@ -141,6 +146,11 @@
       "type": "short_text"
     },
     {
+      "id": "estado_civil",
+      "label": "ESTADO CIVIL",
+      "type": "short_text"
+    },
+    {
       "id": "exig_ncia_n_o_cumprida",
       "label": "EXIGÊNCIA NÃO CUMPRIDA",
       "type": "long_text"
@@ -169,6 +179,16 @@
       "id": "foi_anexado_novos_documentos",
       "label": "FOI ANEXADO NOVOS DOCUMENTOS",
       "type": "radio_horizontal"
+    },
+    {
+      "id": "copy_of_fundo_investidor",
+      "label": "FUNDO ESPECIAL",
+      "type": "short_text"
+    },
+    {
+      "id": "fundo_investidor",
+      "label": "FUNDO INVESTIDOR",
+      "type": "short_text"
     },
     {
       "id": "houve_prorroga_o",
@@ -391,6 +411,11 @@
       "type": "long_text"
     },
     {
+      "id": "tentativas",
+      "label": "TENTATIVAS",
+      "type": "long_text"
+    },
+    {
       "id": "terceiro_interessado",
       "label": "TERCEIRO INTERESSADO",
       "type": "short_text"
@@ -438,6 +463,11 @@
       "type": "radio_vertical"
     },
     {
+      "id": "em_teste_comunicar_encerramento_do_caso",
+      "label": "(EM TESTE) Comunicar encerramento do caso",
+      "type": "radio_vertical"
+    },
+    {
       "id": "em_teste_comunicar_para_a_representante_o_andamento",
       "label": "(EM TESTE)Comunicar para a representante o andamento",
       "type": "radio_vertical"
@@ -476,6 +506,11 @@
       "id": "cadastrado_na_planilha",
       "label": "Cadastrado na planilha",
       "type": "radio_vertical"
+    },
+    {
+      "id": "copy_of_statement_07c82700_e110_443f_be3c_5755dcf8e7c0",
+      "label": "Copy of Statement-07c82700-e110-443f-be3c-5755dcf8e7c0",
+      "type": "statement"
     },
     {
       "id": "data_do_ltimo_retorno",
@@ -518,6 +553,11 @@
       "type": "date"
     },
     {
+      "id": "data_do_relat_rio_escolar",
+      "label": "Data do relatório escolar",
+      "type": "date"
+    },
+    {
       "id": "data_resultado_per_cia_social",
       "label": "Data resultado perícia social",
       "type": "date"
@@ -550,6 +590,16 @@
     {
       "id": "escrit_rio",
       "label": "Escritório",
+      "type": "short_text"
+    },
+    {
+      "id": "copy_of_fundo_investidor",
+      "label": "FUNDO ESPECIAL",
+      "type": "short_text"
+    },
+    {
+      "id": "fundo_investidor",
+      "label": "FUNDO INVESTIDOR",
       "type": "short_text"
     },
     {
@@ -653,14 +703,14 @@
       "type": "long_text"
     },
     {
-      "id": "observa_o_da_equipe_de_comunica_o",
-      "label": "Observação da equipe de comunicação",
-      "type": "long_text"
-    },
-    {
       "id": "observa_es",
       "label": "Observações",
       "type": "long_text"
+    },
+    {
+      "id": "pasta_aberta_no_datajuri",
+      "label": "Pasta aberta no Datajuri?",
+      "type": "radio_horizontal"
     },
     {
       "id": "resultado_da_per_cia",
@@ -713,6 +763,11 @@
       "type": "radio_horizontal"
     },
     {
+      "id": "relat_rio_escolar",
+      "label": "Relatório escolar",
+      "type": "select"
+    },
+    {
       "id": "respons_vel_pela_elabora_o",
       "label": "Responsável pela elaboração",
       "type": "select"
@@ -756,6 +811,11 @@
       "id": "senha_do_meu_inss",
       "label": "Senha do Meu INSS",
       "type": "short_text"
+    },
+    {
+      "id": "statement_07c82700_e110_443f_be3c_5755dcf8e7c0",
+      "label": "Statement-07c82700-e110-443f-be3c-5755dcf8e7c0",
+      "type": "statement"
     },
     {
       "id": "statement_286a6b6e_07ad_422d_b564_0c1033e3b364",
@@ -962,6 +1022,16 @@
     {
       "id": "escrit_rio",
       "label": "Escritório",
+      "type": "short_text"
+    },
+    {
+      "id": "copy_of_fundo_investidor",
+      "label": "FUNDO ESPECIAL",
+      "type": "short_text"
+    },
+    {
+      "id": "fundo_investidor",
+      "label": "FUNDO INVESTIDOR",
       "type": "short_text"
     },
     {
