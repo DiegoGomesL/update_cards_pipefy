@@ -7,11 +7,12 @@ from collections import defaultdict, Counter
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
+import _paths
 from lib import api
 
 ADM=api.PIPES["ADM"]["id"]; JUD=api.PIPES["JUD"]["id"]; FIN=api.PIPES["FIN"]["id"]
-ARQ=os.path.join(os.path.dirname(__file__),"..","Livres - Pipefy.xlsx")
-SAIDA=os.path.join(os.path.dirname(__file__),"..","Livres_Pipefy_VALIDADO.xlsx")
+ARQ=_paths.src("Livres - Pipefy.xlsx")
+SAIDA=_paths.out("validacoes","Livres_Pipefy_VALIDADO.xlsx")
 
 FID={"ADM":{"nome":"nome_do_benefici_rio","cpf":"cpf_do_benefici_rio_1","terc":"terceiro_interessado","inv":"fundo_investidor","esp":"copy_of_fundo_investidor"},
      "JUD":{"nome":"nome_do_benefici_rio","cpf":"cpf_do_benefici_rio","terc":"terceiro_interassado","inv":"fundo_investidor","esp":"copy_of_fundo_investidor"},

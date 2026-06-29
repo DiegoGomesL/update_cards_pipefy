@@ -14,11 +14,12 @@ import sys, re, os
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment
+import _paths
 from lib import api
 
 PIPE_FIN = api.PIPES["FIN"]["id"]
-CARTEIRA = os.path.join(os.path.dirname(__file__), "..", "WAIMEA_900_Processos.xlsx")
-SAIDA    = os.path.join(os.path.dirname(__file__), "..", "WAIMEA_no_financeiro.xlsx")
+CARTEIRA = _paths.src("WAIMEA_900_Processos.xlsx")
+SAIDA    = _paths.out("waimea","WAIMEA_no_financeiro.xlsx")
 
 # Campos do card FIN que queremos extrair: {field_id: rótulo de saída}
 FIN_FIELDS = {

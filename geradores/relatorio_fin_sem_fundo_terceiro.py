@@ -13,10 +13,11 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
 from collections import Counter
+import _paths
 from lib import api
 
 PIPE_FIN = api.PIPES["FIN"]["id"]
-SAIDA = os.path.join(os.path.dirname(__file__), "..", "FINANCEIRO_sem_fundo_terceiro.xlsx")
+SAIDA = _paths.out("processos","FINANCEIRO_sem_fundo_terceiro.xlsx")
 
 FIN_FIELDS = {
     "lote_n":                                  "Lote",

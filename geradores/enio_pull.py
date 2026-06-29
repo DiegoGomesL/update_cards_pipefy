@@ -7,6 +7,7 @@ ENIO identificado por TERCEIRO INTERESSADO contendo 'ENIO'.
 import sys, re, os, json
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 from collections import defaultdict, Counter
+import _paths
 from lib import api
 
 ADM=api.PIPES["ADM"]["id"]; JUD=api.PIPES["JUD"]["id"]; FIN=api.PIPES["FIN"]["id"]
@@ -139,7 +140,7 @@ casos.sort(key=lambda x:str(x["nome"]))
 cnt=Counter(c["situacao"] for c in casos)
 print("\nTotal casos:",len(casos),"| ",dict(cnt))
 
-json.dump(casos, open(os.path.join(ROOT,"enio_casos.json"),"w",encoding="utf-8"), ensure_ascii=False, indent=2)
+json.dump(casos, open(_paths.dados("enio_casos.json"),"w",encoding="utf-8"), ensure_ascii=False, indent=2)
 
 # métricas para apresentação
 def n_adm_decided():
@@ -161,7 +162,7 @@ metrics={
  "pipeline_adm_aguardando":adm_aguardando,"pipeline_jud_aguardando":jud_aguardando,
  "cpfs_enio":sorted(cpfs),
 }
-json.dump(metrics, open(os.path.join(ROOT,"enio_metrics.json"),"w",encoding="utf-8"), ensure_ascii=False, indent=2)
+json.dump(metrics, open(_paths.dados("enio_metrics.json"),"w",encoding="utf-8"), ensure_ascii=False, indent=2)
 print("\n=== MÉTRICAS ===")
 for k,v in metrics.items():
     if k!="cpfs_enio": print(f"  {k}: {v}")

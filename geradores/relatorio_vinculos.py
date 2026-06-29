@@ -10,10 +10,11 @@ from collections import defaultdict, Counter
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
+import _paths
 from lib import api
 
 ADM=api.PIPES["ADM"]["id"]; JUD=api.PIPES["JUD"]["id"]; FIN=api.PIPES["FIN"]["id"]
-SAIDA=os.path.join(os.path.dirname(__file__),"..","PROCESSOS_VINCULADOS.xlsx")
+SAIDA=_paths.out("processos","PROCESSOS_VINCULADOS.xlsx")
 
 FID={"ADM":{"nome":"nome_do_benefici_rio","cpf":"cpf_do_benefici_rio_1","terc":"terceiro_interessado","inv":"fundo_investidor","esp":"copy_of_fundo_investidor"},
      "JUD":{"nome":"nome_do_benefici_rio","cpf":"cpf_do_benefici_rio","terc":"terceiro_interassado","inv":"fundo_investidor","esp":"copy_of_fundo_investidor"},

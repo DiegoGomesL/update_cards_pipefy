@@ -23,12 +23,13 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
+import _paths
 from lib import api
 
 ADM = api.PIPES["ADM"]["id"]
 JUD = api.PIPES["JUD"]["id"]
 FIN = api.PIPES["FIN"]["id"]
-SAIDA = os.path.join(os.path.dirname(__file__), "..", "PROCESSOS_LIVRES_EM_ANDAMENTO.xlsx")
+SAIDA = _paths.out("processos","PROCESSOS_LIVRES_EM_ANDAMENTO.xlsx")
 
 # Field IDs por pipe
 F = {

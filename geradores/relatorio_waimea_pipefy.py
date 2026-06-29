@@ -9,11 +9,12 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 from collections import defaultdict, Counter
+import _paths
 from lib import api
 
 ADM=api.PIPES["ADM"]["id"]; JUD=api.PIPES["JUD"]["id"]; FIN=api.PIPES["FIN"]["id"]
-CARTEIRA=os.path.join(os.path.dirname(__file__),"..","WAIMEA_900_Processos.xlsx")
-SAIDA=os.path.join(os.path.dirname(__file__),"..","WAIMEA_PIPEFY.xlsx")
+CARTEIRA=_paths.src("WAIMEA_900_Processos.xlsx")
+SAIDA=_paths.out("waimea","WAIMEA_PIPEFY.xlsx")
 
 F={"ADM":{"cpf":"cpf_do_benefici_rio_1","nome":"nome_do_benefici_rio","terc":"terceiro_interessado",
           "inv":"fundo_investidor","esp":"copy_of_fundo_investidor",

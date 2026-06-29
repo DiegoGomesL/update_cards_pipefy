@@ -10,11 +10,12 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 from collections import defaultdict, Counter
+import _paths
 from lib import api
 
 ADM=api.PIPES["ADM"]["id"]; JUD=api.PIPES["JUD"]["id"]
-CARTEIRA=os.path.join(os.path.dirname(__file__),"..","WAIMEA_900_Processos.xlsx")
-SAIDA=os.path.join(os.path.dirname(__file__),"..","WAIMEA_900_PROTOCOLOS.xlsx")
+CARTEIRA=_paths.src("WAIMEA_900_Processos.xlsx")
+SAIDA=_paths.out("waimea","WAIMEA_900_PROTOCOLOS.xlsx")
 
 F={"ADM":{"cpf":"cpf_do_benefici_rio_1","nome":"nome_do_benefici_rio",
           "prot":"n_mero_do_processo_administrativo","data":"data_do_protocolo","res":"resultado_do_pedido"},
@@ -43,7 +44,7 @@ for r in rows[1:]:
 print(f"CPFs Waimea na carteira: {len(waimea_nome)}")
 
 # Complemento: 'processos waimea.xlsx' (dados ADM de casos que estavam sem informação)
-SUPP=os.path.join(os.path.dirname(__file__),"..","processos waimea.xlsx")
+SUPP=_paths.src("processos waimea.xlsx")
 supp={}
 if os.path.exists(SUPP):
     sw=openpyxl.load_workbook(SUPP,read_only=True,data_only=True); sws=sw.active

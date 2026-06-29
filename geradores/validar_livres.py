@@ -6,10 +6,11 @@ import sys, re, os, unicodedata
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 import openpyxl
 from collections import defaultdict
+import _paths
 from lib import api
 
 ADM=api.PIPES["ADM"]["id"]; JUD=api.PIPES["JUD"]["id"]; FIN=api.PIPES["FIN"]["id"]
-ARQ=os.path.join(os.path.dirname(__file__),"..","Livres - Pipefy.xlsx")
+ARQ=_paths.src("Livres - Pipefy.xlsx")
 
 FID={"ADM":{"nome":"nome_do_benefici_rio","terc":"terceiro_interessado","inv":"fundo_investidor","esp":"copy_of_fundo_investidor","cpf":"cpf_do_benefici_rio_1"},
      "JUD":{"nome":"nome_do_benefici_rio","terc":"terceiro_interassado","inv":"fundo_investidor","esp":"copy_of_fundo_investidor","cpf":"cpf_do_benefici_rio"},
